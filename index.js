@@ -26,7 +26,7 @@ app.post("/subscribe", (req, res) => {
   const subscription = req.body;
 
   // Send 201 - resource created
-  res.status(201).json({});
+  res.status(201).json({});         
 
   // Create payload
   const payload = JSON.stringify({ title: "Push Test" });
